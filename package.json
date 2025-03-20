@@ -1,0 +1,32 @@
+{
+  "name": "nodepostgre",
+  "version": "1.0.0",
+  "description": "A Node.js + Express + PostgreSQL API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "postgres",
+    "api"
+  ],
+  "author": "Mariya Ahmed",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "pg": "^8.14.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.5",
+    "nodemon": "^3.0.0",
+    "typescript": "^5.7.3"
+  }
+}
